@@ -14,6 +14,4 @@ con.execute("INSERT INTO mytable (id, name, age) VALUES (3, 'Hung', 31)")
 # Printing our data
 result = con.execute("SELECT * FROM mytable")
 for row in result.fetchall():
-    print(row)
-
-    
+    print(row)    
